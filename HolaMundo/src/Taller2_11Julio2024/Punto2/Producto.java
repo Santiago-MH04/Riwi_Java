@@ -32,7 +32,7 @@ public class Producto {
                 return this.importe;
             }
 
-    //Métodos de Producto
+        //Métodos de Producto
     @Override
     public String toString() {
         return this.tienda +

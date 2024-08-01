@@ -69,6 +69,7 @@ public class Curso {
     public String listarEstudiantes() {
         return this.estudiantes.stream()
                 .map(Estudiante::toString)
+                /*.map(e -> e.getNombre() + " " + e.getEmail())*/   //Ejemplo de prueba
                 .reduce("Estudiantes matriculados en "+ this.getNombre() + ": ", (a, b) -> a + "\n" + b);
     }
 }

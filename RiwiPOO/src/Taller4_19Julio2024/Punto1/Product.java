@@ -4,13 +4,15 @@ import java.util.Objects;
 
 public abstract class Product {
         //Atributos de Producto
-    private static int id;
+    private static int last_id;
+
+    private int id;
     private String name;
     private double price;
 
         //Constructores de Producto
     public Product() {
-        id = ++id;  //El chiste es que el ID sea autogenerado
+        this.id = ++last_id;  //El chiste es que el ID sea autogenerado
     }
     public Product(String name, double price) {
         this();
@@ -27,8 +29,8 @@ public abstract class Product {
         }
 
         //Lectores de atributos de Producto (getters)
-    public static int getId() {
-        return id;
+    public int getId() {
+        return this.id;
     }
         public String getName() {
             return this.name;

@@ -42,7 +42,7 @@ public class SpecificProduct extends Product {
                 return discount;
             }
 
-    //Métodos de SpecificProduct
+        //Métodos de SpecificProduct
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
