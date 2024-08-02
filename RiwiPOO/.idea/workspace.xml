@@ -10,9 +10,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 7
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="2jXNFNYeUAKwZ3Y1fcX8CLNNZu5" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -23,6 +23,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Santiago/Documents/ArchivosRiwi/ProjectsRiwiJava/Riwi_Java/JDBC_Riwi",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
@@ -44,6 +45,7 @@
       <option name="presentableId" value="Default" />
       <updated>1721529359058</updated>
       <workItem from="1721529360228" duration="182000" />
+      <workItem from="1722546186769" duration="152000" />
     </task>
     <servers />
   </component>

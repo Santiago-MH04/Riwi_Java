@@ -9,14 +9,21 @@ public class Flight {
     private String destination;
     private LocalDate departureDate;
     private LocalTime departureTime;
-    private int aeroplaneID;
+    private Aeroplane aeroplane;
+
+    private int seatsAvailable = this.aeroplane.getCapacity();
 
         //Constructores de Flight
     public Flight() {}
-    public Flight(int id, String destination, int aeroplaneID) {
+    public Flight(int id, String destination) {
         this.id = id;
         this.destination = destination;
-        this.aeroplaneID = aeroplaneID;
+    }
+    public Flight(String destination, LocalDate date, LocalTime time, Aeroplane aero) {
+        this.destination = destination;
+        this.departureDate = date;
+        this.departureTime = time;
+        this.aeroplane = aero;
     }
 
     //Asignadores de atributos de Flight (setters)
@@ -32,9 +39,10 @@ public class Flight {
                 public void setDepartureTime(LocalTime departureTime) {
                     this.departureTime = departureTime;
                 }
-                    public void setAeroplaneID(int aeroplaneID) {
-                        this.aeroplaneID = aeroplaneID;
+                    public void setAeroplane(Aeroplane aero) {
+                        this.aeroplane = aero;
                     }
+                        public void setSeatsAvailable(int seats) {this.seatsAvailable = seats;}
 
         //Lectores de atributos de Flight (getters)
     public int getId() {
@@ -49,9 +57,11 @@ public class Flight {
                 public LocalTime getDepartureTime() {
                     return this.departureTime;
                 }
-                    public int getAeroplaneID() {
-                        return this.aeroplaneID;
+                    public Aeroplane getAeroplane() {
+                        return this.aeroplane;
                     }
+                        public int getSeatsAvailable() {return this.seatsAvailable;}
+
 
         //Métodos de Flight
     @Override
@@ -60,6 +70,6 @@ public class Flight {
                 "with destination: " + this.destination +
                 ", departing on " + this.departureDate +
                 ", takes off at " + this.departureTime +
-                ", from aeroplane " + this.aeroplaneID;
+                ", from aeroplane " + this.aeroplane.getId();
     }
 }
