@@ -1,4 +1,4 @@
-package org.Santiago.JeffBezos;
+package org.Santiago.JeffBezos.Simulacro1;
 
 import org.Santiago.JeffBezos.Simulacro1.dataBase.dbConnection;
 import org.Santiago.JeffBezos.Simulacro1.models.Aeroplane;

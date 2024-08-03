@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9132c21c-52c1-46d6-9259-9e90bc0f28e6" name="Changes" comment="" />
+    <list default="true" id="9132c21c-52c1-46d6-9259-9e90bc0f28e6" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../JDBC_Riwi/src/main/resources/DataBaseScripts.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../JDBC_Riwi/src/main/resources/DataBaseScripts.sql" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,7 +25,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Santiago/Documents/ArchivosRiwi/ProjectsRiwiJava/Riwi_Java/JDBC_Riwi",
+    "last_opened_file_path": "C:/Users/Santiago/Documents/ArchivosRiwi/ProjectsRiwiJava/Riwi_Java/RiwiPOO",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
@@ -46,6 +48,7 @@
       <updated>1721529359058</updated>
       <workItem from="1721529360228" duration="182000" />
       <workItem from="1722546186769" duration="152000" />
+      <workItem from="1722629046973" duration="14000" />
     </task>
     <servers />
   </component>
